@@ -57,7 +57,14 @@ body {
 
 blockquote {
   letter-spacing: -2px;
-  font-size: 3rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quote-small {
+  letter-spacing: -2px;
+  font-size: 2rem;
   font-weight: 400;
   font-style: italic;
 }
@@ -68,12 +75,43 @@ blockquote {
 }
 
 .half {
-  width: 50%;
+  width: 49%;
+}
+
+.dark {
+  opacity: 0;
+}
+
+.half img {
+  width: 100%;
+  height: auto;
+}
+
+.thirds {
+  width: 32%;
+  vertical-align: middle;
+}
+
+.thirds img {
+  width: 100%;
+  height: auto;
+}
+
+.d-ib {
+  display: inline-block;
+}
+
+.half.d-ib {
+  vertical-align: middle;
 }
 
 .blend {
 
   background-blend-mode: difference;
+}
+
+.cite, .small {
+  font-size: 0.8rem;
 }
 
 .blend2 {
@@ -90,10 +128,6 @@ blockquote {
 
 a {
   color: var(--link-color);
-}
-
-.half {
-  width: 50%;
 }
 
 .center {
