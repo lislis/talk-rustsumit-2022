@@ -92,6 +92,21 @@ blockquote {
   vertical-align: middle;
 }
 
+.sixty  {
+  width: 55%;
+  vertical-align: middle;
+}
+
+
+iframe + p {
+  margin-top: 0.5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 .thirds img {
   width: 100%;
   height: auto;
