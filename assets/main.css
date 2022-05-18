@@ -107,6 +107,11 @@ img {
   height: auto;
 }
 
+.img-auto img {
+  width: auto;
+}
+
+
 .thirds img {
   width: 100%;
   height: auto;
